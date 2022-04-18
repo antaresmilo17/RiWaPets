@@ -58,3 +58,8 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+MyProject/Library
+MyProject/ProjectSettings
+MyProject/MyProject.exe
+MyProject/UnityCrashHandler64.exe
+MyProject/UnityPlayer.dll
