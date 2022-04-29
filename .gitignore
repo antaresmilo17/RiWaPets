@@ -1,3 +1,10 @@
+[merge]
+tool = unityyamlmerge
+
+[mergetool "unityyamlmerge"]
+trustExitCode = false
+cmd = 'C:\Program Files\Unity\Editor\Data\Tools\UnityYAMLMerge.exe' merge -p "$BASE" "$REMOTE" "$LOCAL" "$MERGED"
+
 # This .gitignore file should be placed at the root of your Unity project directory
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
@@ -65,5 +72,4 @@ MyProject/UnityCrashHandler64.exe
 MyProject/UnityPlayer.dll
 MyProject/Logs
 MyProject/MonoBleedingEdge
-MyProject/RiwaPets_Data
 MyProjects/Temp

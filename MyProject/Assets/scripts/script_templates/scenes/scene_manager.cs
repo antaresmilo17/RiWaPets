@@ -12,4 +12,8 @@ public class scene_manager : MonoBehaviour
     public void loadMainGameScene(){
         SceneManager.LoadScene("main_game");
     }
+
+    public void loadSettingsScene(){
+        SceneManager.LoadScene("settings");
+    }
 }
